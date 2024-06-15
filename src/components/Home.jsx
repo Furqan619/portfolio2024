@@ -12,6 +12,10 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoGitBranch } from "react-icons/io5";
 import { ReactTyped } from "react-typed";
 import bigpic from "../../public/big_pic.png";
+import { IoCall } from "react-icons/io5";
+import { MdMail } from "react-icons/md";
+import { FaSquareWhatsapp } from "react-icons/fa6";
+<FaSquareWhatsapp />;
 
 function Home() {
   return (
@@ -49,34 +53,45 @@ function Home() {
           <br />
           <br />
           {/* social media icons */}
-          <div className="flex justify-between pt-5">
+          <div className="flex flex-col md:flex-row justify-between pt-5 space-y-6 md:space-y-0 ">
             <div className="space-y-2">
-              <h1 className="text-green-600 font-semibold">Available on</h1>
-              <div className="flex space-x-2 ">
-                <ul className="flex space-x-2 md:space-x-2 md:text-2xl cursor-pointer">
+              <h1 className="text-green-600 font-semibold text-center ">
+                Available on
+              </h1>
+              <div className="flex space-x-5 ">
+                <ul className="flex space-x-4 md:space-x-2 md:text-2xl cursor-pointer m-auto">
                   <li className="hover:scale-150 duration-300">
-                    <a href="http://www.github.com" target="_blank">
-                      <FaGithubSquare />
+                    <a href="tel:8886195979" target="_blank">
+                      <IoCall size={25} />
                     </a>
                   </li>
                   <li className="hover:scale-150 duration-300">
-                    <a href="http://www.linkedin.com" target="_blank">
-                      <IoLogoLinkedin />
+                    <a href="whatsapp://call?number=8886195979" target="_blank">
+                      <FaSquareWhatsapp size={25} />
+                    </a>
+                  </li>
+
+                  <li className="hover:scale-150 duration-300">
+                    <a href="mailto:ahmedev247@gmail.com" target="_blank">
+                      <MdMail size={25} />
                     </a>
                   </li>
                   <li className="hover:scale-150 duration-300">
-                    <a href="http://www.facebook.com" target="_blank">
-                      <FaFacebookSquare />
+                    <a href="https://github.com/Furqan619" target="_blank">
+                      <FaGithubSquare size={25} />
                     </a>
                   </li>
                   <li className="hover:scale-150 duration-300">
-                    <a href="http://www.telegram.com" target="_blank">
-                      <BsTelegram />
+                    <a href="www.linkedin.com/in/furqanwebdev" target="_blank">
+                      <IoLogoLinkedin size={25} />
                     </a>
                   </li>
                   <li className="hover:scale-150 duration-300">
-                    <a href="http://www.youtube.com" target="_blank">
-                      <IoLogoYoutube />
+                    <a
+                      href="https://www.facebook.com/furqan.mohammed.37"
+                      target="_blank"
+                    >
+                      <FaFacebookSquare size={25} />
                     </a>
                   </li>
                 </ul>
@@ -85,12 +100,12 @@ function Home() {
             {/* Technologies */}
             <div>
               <div className="space-y-2">
-                <h1 className="text-green-600 font-semibold">
+                <h1 className="text-green-600 font-semibold text-center">
                   Currently Working on
                 </h1>
                 <div className="flex space-x-2 ">
-                  <ul className="flex space-x-1 md:space-x-2 md:text-2xl cursor-pointer">
-                    <li className="hover:scale-150 duration-300">
+                  <ul className="flex space-x-2 space-x-5 md:space-x-2 md:text-2xl cursor-pointer m-auto">
+                    <li className="hover:scale-150 duration-300 ">
                       <BiLogoMongodb />
                     </li>
                     <li className="hover:scale-150 duration-300">

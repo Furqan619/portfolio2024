@@ -52,7 +52,11 @@ function About() {
         <br />
         💼 Contributed in <span className="font-semibold">Freelancing </span>
         platforms like <span className="font-semibold">'Fiverr' </span> profile:
-        <a className="text-blue-600" href="https://fiverr.com/furqan247">
+        <a
+          className="text-blue-600"
+          href="https://fiverr.com/furqan247"
+          target="_blank"
+        >
           “www.fiverr.com/furqan247”
         </a>
         &nbsp; to bring start-up’s to Social media and E-commerce platforms
