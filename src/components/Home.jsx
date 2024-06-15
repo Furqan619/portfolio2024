@@ -66,7 +66,7 @@ function Home() {
                     </a>
                   </li>
                   <li className="hover:scale-150 duration-300">
-                    <a href="whatsapp://call?number=8886195979" target="_blank">
+                    <a href="https://wa.me/8886195979" target="_blank">
                       <FaSquareWhatsapp size={25} />
                     </a>
                   </li>
