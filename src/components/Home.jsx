@@ -61,7 +61,7 @@ function Home() {
               <div className="flex space-x-5 ">
                 <ul className="flex space-x-4 md:space-x-2 md:text-2xl cursor-pointer m-auto">
                   <li className="hover:scale-150 duration-300">
-                    <a href="tel:8886195979" target="_blank">
+                    <a href="tel:+918886195979" target="_blank">
                       <IoCall size={25} />
                     </a>
                   </li>
@@ -82,7 +82,10 @@ function Home() {
                     </a>
                   </li>
                   <li className="hover:scale-150 duration-300">
-                    <a href="www.linkedin.com/in/furqanwebdev" target="_blank">
+                    <a
+                      href="http://linkedin.com/in/furqanwebdev"
+                      target="_blank"
+                    >
                       <IoLogoLinkedin size={25} />
                     </a>
                   </li>
